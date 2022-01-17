@@ -7,6 +7,8 @@ EFI para Lenovo IdeaPad S145 OpenCore bootloader
 
 ### Computer Spec:
 
+![2022-01-16 22 35 21](https://user-images.githubusercontent.com/84999586/149687676-6ba8de5d-1e76-4779-a5eb-34265b68973d.jpg)
+
 | Component        | Brank                              |
 | ---------------- | ---------------------------------- |
 | CPU              | Intel i7 1065G7 (4C-8T 8MB ICL)    |

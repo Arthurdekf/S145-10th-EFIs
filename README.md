@@ -1,16 +1,16 @@
 # Lenovo IdeaPad S145 (Ice Lake) Hackintosh
 
 
-EFI para Lenovo IdeaPad S145 OpenCore bootloader
+EFI for Lenovo IdeaPad S145 OpenCore bootloader
 
 (Compatible for Lenovo Ideapad S145, (i3 G1 - i5 G1 - i7 G7) these laptops use the same bios file).
 
 ### Computer Spec:
 
-![2022-01-16 22 35 21](https://user-images.githubusercontent.com/84999586/149687676-6ba8de5d-1e76-4779-a5eb-34265b68973d.jpg)
 
 | Component        | Brank                              |
 | ---------------- | ---------------------------------- |
+|                                                       |
 | CPU              | Intel i7 1065G7 (4C-8T 8MB ICL)    |
 | iGPU             | Intel® Iris Plus Graphics          |
 | Audio            | Realtek ALC230                     |
@@ -21,33 +21,40 @@ EFI para Lenovo IdeaPad S145 OpenCore bootloader
 | macOS            | Monterey 12.1                      |
 
 
-### What works and What doesn't or WIP:
+### What works on this EFI??
 
-- [ ] Intel Iris Plus iGPU HDMI Output (Not supported at the moment)
-- [x] Intel Iris Plus iGPU - H264 & HEVC
-- [x] ALC230 Internal Speakers
-- [x] ALC230 Internal microphone
-- [x] SpeedStep / Sleep / Wake
-- [x] I2C Touchpad with gesture (ELAN and SYNA)
-- [x] Keyboard (PS2-Internal)
-- [x] F11 & F12 Brightness Key
-- [x] F1 & F2 & F3 Sound Key
-- [x] Wi-Fi and Bluetooth BCM94360NG
-- [x] Micro SD Cardreader (USB-Internal)
-- [x] WebCam (USB-Internal)( Se tiver problemas baixe o ManyCam e defina para 240p).
-- [x] All Sensors CPU, IGPU, BATTERY, NVME, FAN
-- [x] ACPI Battery
-- [x] NVRAM (Native)
-- [x] Recovery (macOS) boot from OpenCore
+- Intel Iris Plus iGPU - H264 & HEVC
+- Full ALC230 (Sound and microphone)
+- ACPI correction SpeedStep / Sleep / Wake
+- I2C Touchpad with gesture (ELAN and SYNA)
+- Keyboard (PS2)
+- Keyboard shortcuts (Sound and screen brightness)
+- Native Wi-Fi and Bluetooth BCM94360NG
+- Micro SD Cardreader (USB mapping)
+- WebCam (USB Mapping)
+- AppleSMC chip emulation (thanks to VirtualSMC)
+- ACPI Battery
+- NVRAM (Native)
+- Recovery (macOS) boot from OpenCore
 
 
 ### Special Config:
 
-- Usb port mapping performed
-- DSDT mald0n
+- USB port mapping performed
+- [Maldon](olarila.com) ACPI fix
 
 ## Credits
 
 - [Apple](https://apple.com/osx) for macOS.
 - [Acidanthera](https://github.com/acidanthera) for OpenCore and some kexts
 - [Mald0n](https://www.olarila.com/topic/9918-olarila-hackintosh-hackbook-lenovo-ideapad-s145-10th-gen-catalina-big-sur-monterey-full-dsdt-patches-clover-and-opencore) for EFI bases, Olarila Vanilla Images and Support!
+
+## Tips
+
+- Use ManyCam to use your WebCam's full performance
+- [Bios Mod Tutorial](https://www.youtube.com/watch?v=i5AYuSpQNYY&t=0s) (thanks Mateus!)
+- [Active Retina Display](https://www.youtube.com/watch?v=_fNvIfPxOEA&t=0s)
+
+## Warning
+
+I am not responsible for any problem and/or damage to equipment or loss of files. Always back up everything before any changes to your computer

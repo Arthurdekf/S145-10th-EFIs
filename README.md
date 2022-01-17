@@ -48,7 +48,6 @@ EFI para Lenovo IdeaPad S145 OpenCore bootloader
 
 ## Credits
 
-- [Apple](https://apple.com) for macOS.
-- [Acidanthera](https://github.com/acidanthera) for OpenCore and all the lovely hackintosh work.
-- [Dortania](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/icelake.html)
-- Mald0n (Olarila) https://www.olarila.com/topic/9918-olarila-hackintosh-hackbook-lenovo-ideapad-s145-10th-gen-catalina-big-sur-monterey-full-dsdt-patches-clover-and-opencore
+- [Apple](https://apple.com/osx) for macOS.
+- [Acidanthera](https://github.com/acidanthera) for OpenCore and some kexts
+- [Mald0n](https://www.olarila.com/topic/9918-olarila-hackintosh-hackbook-lenovo-ideapad-s145-10th-gen-catalina-big-sur-monterey-full-dsdt-patches-clover-and-opencore) for EFI bases, Olarila Vanilla Images and Support!

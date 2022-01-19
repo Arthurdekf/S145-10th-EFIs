@@ -5,6 +5,8 @@ EFI para Lenovo IdeaPad S145 OpenCore Bootloader
 
 (Compativel com Lenovo Ideapad S145, (i3 & i5 G1 / i7 1065G7*).
 
+![2022-01-19 13 49 16](https://user-images.githubusercontent.com/84999586/150176676-be5040f9-e8e3-40d5-9370-234a2c29a5c8.jpg)
+
 ### Laptop Especificações:
 
 

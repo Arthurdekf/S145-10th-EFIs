@@ -1,11 +1,11 @@
 # Lenovo IdeaPad S145 (Ice Lake) Hackintosh
 
 
-EFI for Lenovo IdeaPad S145 OpenCore bootloader
+EFI para Lenovo IdeaPad S145 OpenCore Bootloader
 
-(Compatible for Lenovo Ideapad S145, (i3 G1 - i5 G1 - i7 G7) these laptops use the same bios file).
+(Compativel com Lenovo Ideapad S145, (i3 & i5 G1 / i7 1065G7*).
 
-### Computer Spec:
+### Laptop Especificações:
 
 
 | Component        | Brank                              |
@@ -21,25 +21,26 @@ EFI for Lenovo IdeaPad S145 OpenCore bootloader
 | macOS            | Monterey 12.1                      |
 
 
-### What works on this EFI??
+### O que funciona 100%?
 
-- Intel Iris Plus iGPU - H264 & HEVC
-- Full ALC230 (Sound and microphone)
-- ACPI correction SpeedStep / Sleep / Wake
-- I2C Touchpad with gesture (ELAN and SYNA)
-- Keyboard (PS2)
-- Keyboard shortcuts (Sound and screen brightness)
-- Native Wi-Fi and Bluetooth BCM94360NG
-- Micro SD Cardreader (USB mapping)
-- WebCam (USB Mapping)
-- AppleSMC chip emulation (thanks to VirtualSMC)
-- ACPI Battery
-- NVRAM (Native)
-- Recovery (macOS) boot from OpenCore
+- Intel Iris Plus iGPU - H264 & HEVC (excepto saída HDMI)
+- Total ALC230 (Som e microfone)
+- Sleep / Wake
+- I2C Touchpad com gestos (ELAN & SYNA)(Modo Polling)
+- Teclado (PS2)
+- Teclas de brilho e volume
+- Wi-Fi & Bluetooth BCM94360NG
+- Leitor Micro SD 
+- WebCam (Monterey quebrou varias Webcams se for seu caso conserto via ManyCam 240p)
+- ACPI Bateria
+- NVRAM (Nativa)
+- Recovery (macOS) boot do OpenCore
 
 
 ### Special Config:
 
+- Hackintosh montado a fim de imitar ao melhor um MacBookAir9,1 devido a semelhanças de CPU, GPU, Frequencias, Conectores e etc.
+- Device ID nativo MacBookAir9,1 (0200518A) Fully Graphic and Sleep/Wake.
 - USB port mapping performed
 - [Maldon](olarila.com) ACPI fix
 

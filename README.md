@@ -54,9 +54,9 @@ EFI para Lenovo IdeaPad S145 OpenCore Bootloader
 
 ## Tips
 
-- Use ManyCam to use your WebCam's full performance
-- [Bios Mod Tutorial](https://www.youtube.com/watch?v=i5AYuSpQNYY&t=0s) (thanks Mateus!)
-- [Active Retina Display](https://www.youtube.com/watch?v=_fNvIfPxOEA&t=0s)
+- Use ManyCam (ou um app de terceiro que permita alterar a resolução da WebCam para 240p) caso a camera perca suporte no Monterey.
+- [BIOS MOD Tutorial](https://www.youtube.com/watch?v=i5AYuSpQNYY&t=0s) (<3 Mateus!)
+- [HiDPI Retina Display](https://www.youtube.com/watch?v=_fNvIfPxOEA&t=0s)
 
 ## Warning
 

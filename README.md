@@ -19,8 +19,8 @@ EFI para Lenovo IdeaPad S145 OpenCore Bootloader
 | Ram              | 20 GB DDR4 2667 Mhz                |
 | Wifi + Bluetooth | BCM94360NG (Broandcom FENVI)       |
 | SmBios           | MacBookAir 9,1                     |
-| BootLoader       | OpenCore 0.7.8                     |
-| macOS            | Monterey 12.1                      |
+| BootLoader       | OpenCore 0.8.0                     |
+| macOS            | Monterey 12.3                      |
 
 
 ### O que funciona 100%?

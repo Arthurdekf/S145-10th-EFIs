@@ -5,7 +5,8 @@ EFI para Lenovo IdeaPad S145 OpenCore Bootloader
 
 (Compativel com Lenovo Ideapad S145, (i3 & i5 G1 / i7 1065G7*).
 
-![2022-01-19 13 49 16](https://user-images.githubusercontent.com/84999586/150176676-be5040f9-e8e3-40d5-9370-234a2c29a5c8.jpg)
+![Captura de Tela 2022-04-01 às 18 08 44](https://user-images.githubusercontent.com/84999586/161341590-b4616829-6a02-40b5-b331-b693067bc8fd.png)
+
 
 ### Laptop Especificações:
 
@@ -18,9 +19,9 @@ EFI para Lenovo IdeaPad S145 OpenCore Bootloader
 | Audio            | Realtek ALC230                     |
 | Ram              | 20 GB DDR4 2667 Mhz                |
 | Wifi + Bluetooth | BCM94360NG (Broandcom FENVI)       |
-| SmBios           | MacBookAir 9,1                     |
+| SmBios           | MacBookPro 16,2                    |
 | BootLoader       | OpenCore 0.8.0                     |
-| macOS            | Monterey 12.3                      |
+| macOS            | Monterey 12.3.1                    |
 
 
 ### O que funciona 100%?
@@ -41,8 +42,7 @@ EFI para Lenovo IdeaPad S145 OpenCore Bootloader
 
 ### Special Config:
 
-- Hackintosh montado a fim de imitar ao melhor um MacBookAir9,1 devido a semelhanças de CPU, GPU, Frequencias, Conectores e etc.
-- Device ID nativo MacBookAir9,1 (0200518A) Fully Graphic and Sleep/Wake.
+- Device ID nativo (0200518A) Fully Graphic and Sleep/Wake.
 - USB port mapping performed
 - [Maldon](olarila.com) ACPI fix
 

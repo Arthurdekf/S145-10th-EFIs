@@ -5,8 +5,9 @@ EFI para Lenovo IdeaPad S145 OpenCore Bootloader
 
 (Compativel com Lenovo Ideapad S145, (i3 & i5 UHD / i7 1065G7 Iris*).
 
-![Screen Shot 2022-06-07 at 14 29 08 1](https://user-images.githubusercontent.com/84999586/172447015-c643260e-1ccc-43ee-9e04-3fe7ed32e4f7.png)
 
+![Screen Shot 2022-06-09 at 10 56 12](https://user-images.githubusercontent.com/84999586/172865953-c6fdb60c-5be1-467c-bf6e-cc3dc8c6d5a7.png)
+                                         *link do teste: https://browser.geekbench.com/v5/cpu/15376873*
 
 ### Laptop Especificações:
 
@@ -19,9 +20,9 @@ EFI para Lenovo IdeaPad S145 OpenCore Bootloader
 | Audio            | Realtek ALC230                     |
 | Ram              | 20 GB DDR4 2667 Mhz                |
 | Wifi + Bluetooth | BCM94360NG (Broandcom FENVI)       |
-| SmBios           | MacBookPro 16,2                    |
-| BootLoader       | OpenCore 0.8.2                     |
-| macOS            | Ventura 13.0.                      |
+| SmBios           | MacBookAir9,1                      |
+| BootLoader       | OpenCore 0.8.1                     |
+| macOS            | Ventura 13.0                       |
 
 
 ### O que funciona 100%?
